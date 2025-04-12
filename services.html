@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | SoyCar Transport & Car Rentals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/341277203_1413637722782736_3262694318373621872_n.png" alt="SoyCar Transport & Car Rentals Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#about-section">About Us</a></li>
+                <li><a href="booking.html" class="cta-button">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="page-banner">
+        <!-- Slideshow container -->
+        <div class="banner-slideshow">
+            <!-- Slides will be added here via JavaScript -->
+        </div>
+        
+        <div class="banner-content">
+            <h1>Our Services</h1>
+            <p>Discover our comprehensive range of transportation solutions in Palawan</p>
+        </div>
+    </section>
+    
+    
+    <!-- Palawan Map with Image Map -->
+    <section class="palawan-map-section">
+        <div class="container">
+            <h2>Explore Palawan's Popular Destinations</h2>
+            <p>Click on different regions of the map to learn more about our service areas</p>
+            
+            <div class="palawan-map-container">
+                <img src="images/palawan-map.jpg" alt="Palawan Map" usemap="#palawan-map">
+                <map name="palawan-map">
+                    <area shape="circle" coords="522,79,60" href="#el-nido-services" alt="El Nido" title="El Nido Services">
+                    <area shape="circle" coords="277,538,61" href="#puerto-princesa-services" alt="Puerto Princesa" title="Puerto Princesa Services">
+                    <area shape="poly" coords="80,150,150,180,120,250,50,220" href="#port-barton-services" alt="Port Barton" title="Port Barton Services">
+                    <area shape="rect" coords="350,200,450,280" href="#san-vicente-services" alt="San Vicente" title="San Vicente Services">
+                </map>
+            </div>
+            
+            <div class="map-description">
+                <p>Our services cover all major tourist destinations in Palawan including El Nido, Puerto Princesa, Port Barton, and San Vicente. We offer both shared and private transportation options to these locations.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="service-details">
+        <div class="container">
+            <div id="el-nido-services" class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-plane-arrival"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Airport-Hotel Transfers</h3>
+                    <p>Start your Palawan adventure stress-free with our reliable airport transfer service. Our professional drivers will be waiting for you at the airport with a welcome sign, ready to take you directly to your accommodation.</p>
+                    <div class="service-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Meet and greet service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Flight monitoring</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free waiting time</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Door-to-door service</span>
+                        </div>
+                    </div>
+                    <div class="price-info">
+                        <p>Starting from <span class="price">₱900</span> per transfer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="el-nido-services" class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Car Rentals</h3>
+                    <p>Explore Palawan at your own pace with our wide selection of rental vehicles. From compact cars to spacious vans, we have the perfect vehicle for your needs. All our vehicles are regularly maintained and cleaned to ensure your comfort and safety.</p>
+                    <div class="vehicle-types">
+                        <div class="vehicle-type">
+                            <h4>Sedan</h4>
+                            <p>Ideal for couples or small families</p>
+                            <p class="vehicle-price">From ₱2,500/day</p>
+                        </div>
+                        <div class="vehicle-type">
+                            <h4>SUV</h4>
+                            <p>Perfect for rough terrain adventures</p>
+                            <p class="vehicle-price">From ₱3,500/day</p>
+                        </div>
+                        <div class="vehicle-type">
+                            <h4>Van</h4>
+                            <p>Spacious option for groups up to 12 people</p>
+                            <p class="vehicle-price">From ₱4,500/day</p>
+                        </div>
+                    </div>
+                    <p class="rental-note">All self-drive car rentals have security deposit.</p>
+                </div>
+            </div>
+            
+            <div id="port-barton-services" class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Private Tours</h3>
+                    <p>Experience the best of Palawan with our customized private tours. Our knowledgeable guides will take you to the most beautiful spots while sharing interesting facts and stories about the local culture and history.</p>
+                    <div class="tour-packages">
+                        <div class="tour-package">
+                            <h4>City Tour</h4>
+                            <p>Explore Puerto Princesa's highlights</p>
+                            <p>Duration: 4-5 hours</p>
+                            <p class="tour-price">From ₱2,000/person</p>
+                        </div>
+                        <div class="tour-package">
+                            <h4>Inland Tour El Nido</h4>
+                            <p>Visit the tourist attractions in El Nido</p>
+                            <p>Duration: Full day</p>
+                            <p class="tour-price">From ₱6,000/ Premium Van</p>
+                        </div>
+                        <div class="tour-package">
+                            <h4>Island Hopping</h4>
+                            <p>Discover El Nido's stunning lagoons and beaches</p>
+                            <p>Duration: Full day</p>
+                            <p class="tour-price">From ₱3,000/person</p>
+                        </div>
+                    </div>
+                    <p class="tour-note">All tours include transportation, entrance fees, lunch, and bottled water.</p>
+                </div>
+            </div>
+            
+            <div id="puerto-princesa-services" class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-shuttle-van"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Daily Shared Van Schedule</h3>
+                    <p>Travel economically between popular destinations in Palawan with our scheduled shared van services. Comfortable air-conditioned vans depart daily to connect major tourist spots.</p>
+                    <div class="schedule-summary">
+                        <p>We offer regular shared van services between:</p>
+                        <ul class="route-list">
+                            <li>Puerto Princesa ↔ El Nido</li>
+                <li>Puerto Princesa ↔ Port Barton</li>
+                <li>El Nido ↔ Port Barton</li>
+                <li>And more destinations throughout Palawan</li>
+                        </ul>
+                        <div class="price-link-container">
+                            <a href="index.html#rates-section" class="price-link">
+                                <i class="fas fa-table"></i> See Complete Schedule & Price List
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <p class="schedule-note">Advance booking recommended. Hotel pickup and drop-off included within city limits.</p>
+                </div>
+            </div>
+                    </div>
+                    </div>
+                    <p class="schedule-note">Advance booking recommended. Hotel pickup and drop-off included within city limits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Additional Lists Section -->
+    <section class="additional-info">
+        <div class="container">
+            <h2>Everything You Need To Know</h2>
+            
+            <div class="info-columns">
+                <div class="info-column">
+                    <h3><i class="fas fa-car"></i> Our Vehicle Features</h3>
+                    <ul class="features-list">
+                        <li>Air conditioning with individual controls</li>
+                        <li>Premium comfortable seating with extra legroom</li>
+                        <li>Spacious luggage compartment for all your bags</li>
+                        <li>USB charging ports at every seat</li>
+                        <li>Complimentary bottled water for all passengers</li>
+                    </ul>
+                    
+                    <h3><i class="fas fa-shield-alt"></i> Safety Measures</h3>
+                    <ul class="safety-list">
+                        <li>Regular vehicle maintenance and inspections</li>
+                        <li>Professional drivers with extensive training</li>
+                        <li>First aid kits and emergency equipment in all vehicles</li>
+                        <li>Seatbelts for all passengers with safety briefings</li>
+                        <li>24/7 roadside assistance and support team</li>
+                    </ul>
+                    
+                    <h3><i class="fas fa-credit-card"></i> Accepted Payment Methods</h3>
+                    <ul class="payment-list">
+                        <li>Cash (Philippine Peso)</li>
+                        <li>All major credit/debit cards (Visa, Mastercard)</li>
+                        <li>GCash mobile payments</li>
+                        <li>PayMaya digital wallet</li>
+                        <li>Bank transfer to our secure accounts</li>
+                    </ul>
+                </div>
+                
+                <div class="info-column">
+                    <h3><i class="fas fa-clipboard-list"></i> Booking Process Steps</h3>
+                    <ol class="booking-steps">
+                        <li>Fill out our easy-to-use online booking form</li>
+                        <li>Receive confirmation email with trip details</li>
+                        <li>Pay secure deposit to guarantee your reservation</li>
+                        <li>Get final confirmation with driver information</li>
+                        <li>Meet your friendly driver at the designated location</li>
+                    </ol>
+                    
+                    <h3><i class="fas fa-suitcase"></i> What to Bring</h3>
+                    <ul class="bring-list">
+                        <li>Valid government-issued ID or passport</li>
+                        <li>Booking confirmation (digital or printed)</li>
+                        <li>Payment receipt for your records</li>
+                        <li>Personal items for your comfort during travel</li>
+                        <li>Light snacks for longer journeys (optional)</li>
+                    </ul>
+                    
+                    <h3><i class="fas fa-map-marked-alt"></i> Popular Attractions</h3>
+                    <ul class="attractions-list">
+                        <li>Puerto Princesa Underground River (UNESCO site)</li>
+                        <li>El Nido's stunning limestone lagoons</li>
+                        <li>Pristine Nacpan Beach with golden sands</li>
+                        <li>Coron's crystal-clear island lakes</li>
+                        <li>Serene Port Barton beaches and marine sanctuary</li>
+                        <li>Honda Bay island hopping adventures</li>
+                    </ul>
+                </div>
+                
+                <div class="info-column">
+                    <h3><i class="fas fa-calendar-times"></i> Cancellation Policy</h3>
+                    <ul class="cancellation-list">
+                        <li>Free cancellation up to 48 hours before scheduled pickup</li>
+                        <li>50% charge for cancellations within 24-48 hours</li>
+                        <li>Full charge for cancellations less than 24 hours notice</li>
+                        <li>No-shows are charged the full booking amount</li>
+                        <li>Weather-related cancellations may qualify for rescheduling</li>
+                    </ul>
+                    
+                    <h3><i class="fas fa-id-card"></i> Driver Requirements</h3>
+                    <ul class="driver-list">
+                        <li>Valid driver's license (local or international)</li>
+                        <li>Minimum 21 years of age for all vehicles</li>
+                        <li>At least 2 years of driving experience</li>
+                        <li>Credit card for security deposit authorization</li>
+                        <li>Valid ID or passport for verification</li>
+                    </ul>
+                    
+                    <h3><i class="fas fa-plus-circle"></i> Additional Services</h3>
+                    <ul class="additional-services-list">
+                        <li>Child safety seats for infants and toddlers (₱300/day)</li>
+                        <li>GPS navigation system with local maps (₱200/day)</li>
+                        <li>Additional authorized driver registration (₱500/rental)</li>
+                        <li>Insulated cooler box for refreshments (₱150/day)</li>
+                        <li>Portable WiFi hotspot for connectivity (₱250/day)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Travel Resources Section -->
+    <section class="travel-resources">
+        <div class="container">
+            <h2>Useful Travel Resources</h2>
+            <p>Enhance your Palawan adventure with these carefully selected websites and tools</p>
+            
+            <div class="resources-grid">
+                <div class="resource-item">
+                    <a href="https://www.tripadvisor.com/Tourism-g294255-Palawan_Island_Palawan_Province_Mimaropa-Vacations.html" target="_blank">
+                        <div class="resource-image">
+                            <img src="images/tripadvisor.png" alt="TripAdvisor">
+                        </div>
+                        <div class="resource-content">
+                            <h3>TripAdvisor</h3>
+                            <p>Read authentic reviews from travelers about attractions, restaurants, and accommodations throughout Palawan.</p>
+                            <span class="resource-tag">Reviews & Ratings</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="resource-item">
+                    <a href="https://www.booking.com/region/ph/palawan.html" target="_blank">
+                        <div class="resource-image">
+                            <img src="images/booking.png" alt="Booking.com">
+                        </div>
+                        <div class="resource-content">
+                            <h3>Booking.com</h3>
+                            <p>Find and book accommodations across Palawan with verified reviews and flexible cancellation options.</p>
+                            <span class="resource-tag">Accommodation</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="resource-item">
+                    <a href="https://www.agoda.com/region/palawan-province-ph.html" target="_blank">
+                        <div class="resource-image">
+                            <img src="images/agoda.png" alt="Agoda">
+                        </div>
+                        <div class="resource-content">
+                            <h3>Agoda</h3>
+                            <p>Discover special hotel deals and discounted rates for your stay in Palawan's top destinations.</p>
+                            <span class="resource-tag">Hotel Deals</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="resource-item">
+                    <a href="https://turismo.palawan.gov.ph/" target="_blank">
+                        <div class="resource-image">
+                            <img src="images/palawan.png" alt="Palawan Tourism">
+                        </div>
+                        <div class="resource-content">
+                            <h3>Palawan Tourism</h3>
+                            <p>Access official tourism information, travel advisories, and the latest updates on Palawan's attractions.</p>
+                            <span class="resource-tag">Official Information</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="booking-cta">
+        <div class="container">
+            <h2>Ready to Book Your Transportation?</h2>
+            <p>Contact us today to arrange your perfect transportation solution in Palawan.</p>
+            <div class="cta-buttons">
+                <a href="booking.html" class="cta-button">Book Online</a>
+                <a href="contact.html" class="cta-button secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SoyCar Transport & Car Rentals</h3>
+                <p>Your trusted transportation partner in Palawan</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: soycartransportcarrentals@gmail.com</p>
+                <p>Phone: 
+                    <span class="phone-number">+63 927 2244 732</span> 
+                    <span class="phone-number">+63 929 3291 482</span>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/soycartransportpalawan"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/soycartransportpalawan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SoyCar Transport & Car Rentals. Designed and Developed by Alraf Adoptante.</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Array of image paths for the banner slideshow
+            const bannerImages = [
+                'images/4vans.jpg',
+                'images/luxuryvan.jpg',
+                'images/luxuryvan2.jpg',
+                'images/suv.jpg',
+                'images/premiumvan2.jpg'
+                // Add more service-related images as needed
+            ];
+            
+            const slideshowContainer = document.querySelector('.banner-slideshow');
+            
+            // Create slides from banner images
+            bannerImages.forEach((image, index) => {
+                const slide = document.createElement('div');
+                slide.className = 'slide';
+                slide.style.backgroundImage = `url('${image}')`;
+                
+                // Make the first slide active
+                if (index === 0) {
+                    slide.classList.add('active');
+                }
+                
+                slideshowContainer.appendChild(slide);
+            });
+            
+            const slides = document.querySelectorAll('.banner-slideshow .slide');
+            let currentSlide = 0;
+            
+            // Function to change slides
+            function nextSlide() {
+                // Remove active class from current slide
+                slides[currentSlide].classList.remove('active');
+                
+                // Move to next slide or back to first slide
+                currentSlide = (currentSlide + 1) % slides.length;
+                
+                // Add active class to new current slide
+                slides[currentSlide].classList.add('active');
+            }
+            
+            // Change slide every 5 seconds
+            setInterval(nextSlide, 5000);
+        });
+        </script>
+        
+</body>
+</html>
